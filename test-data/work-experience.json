@@ -1,0 +1,38 @@
+[
+  {
+    "dates": "November 2014 - Present",
+    "ocupation": "FrontEnd/BackEnd Developer",
+    "description": "Mainly focused in Frontend development with Aurelia, Typescript and Polymer and occasionally in SAPUI5. Backend development with MongoDB, Couchbase and SAP/ABAP. At the present moment developing projects for AMB (Àrea Metropolitana de Barcelona) and 'Mobile Yourself', a custom application to have all your SAP applications on your mobile devices",
+    "company": "newUIBcn",
+    "logo": "images/newuibcn.png",
+    "location": "C. Muntaner, 48 - Barcelona (Spain)",
+    "sector": "Software Development"
+  },
+  {
+    "dates": "June 2014 - November 2014",
+    "ocupation": "ABAP Software Consultant",
+    "description": "ABAP Software Consultant at eXeQuam. Working for client Desigual, where we assists all the divisions and departments of Desigual developing ABAP software solutions. IDOCs, System Integrations, Web-Services, PI",
+    "company": "eXeQuam",
+    "logo": "images/exequam.png",
+    "location": "Rambla de Catalunya, 13, 08007 Barcelona",
+    "sector": "Software Development"
+  },
+  {
+    "dates": "January 2013 - June 2014",
+    "ocupation": "ABAP Software Developer",
+    "description": "ABAP Sotware Developer for SAP ISH*MED Module. Developing software for Project ARGOS of Generalitat de Catalunya, where we assist multiple hospitals deploying software solutions for patient/personal management in the Healthcare sector. ABAP, SAP Consulting, System Integrations, HL7 Protocol, Web-Services, PI, SQL, SCRUM Methodology",
+    "company": "ViewNext (IBM)",
+    "logo": "images/viewnext.png",
+    "location": "C. Jesús Serra Santamans, 4 - Sant Cugat del Vallès (Spain)",
+    "sector": "Software Development"
+  },
+  {
+    "dates": "June 2012 - September 2012",
+    "ocupation": "Research Assistant",
+    "description": "Occasional  collaborator  with  the  department  of  Communication  Networks  in  Kungliga  TekniskaHögskolan. Developing a study of WSN networks coexisting with WLAN, extending the work developed in my Master Thesis.  Involves work on simulation environment NS2 and partial software developing inC++ and TCL. Writing a technical paper to be presented in an international conference and in a journal in 2013",
+    "company": "Kungliga Tekniska Högskolan",
+    "logo": "images/kth.png",
+    "location": "Osquldas väg 10 - Stockholm (Sweden)",
+    "sector": "Research"
+  }
+]

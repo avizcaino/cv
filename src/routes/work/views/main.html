@@ -1,0 +1,18 @@
+<template>
+  <work class="horizontal layout wrap">
+    <paper-card class="flex work-cards" repeat.for="work of workExperience">
+      <div class="work-image self-center" background-image="image.bind: work.logo"></div>
+      <div class="work-content">
+        <div class="card-content">
+          <div class="work-header">${work.ocupation}</div>
+          <div class="work-name">
+            ${work.company}<br>
+            (${work.dates})
+          </div>
+          <h3>Description</h3>
+          <div>${work.description}</div>
+        </div>
+      </div>
+    </paper-card>
+  </work>
+</template>

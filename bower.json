@@ -1,0 +1,29 @@
+{
+  "name": "cv",
+  "main": "dist/main.js",
+  "version": "0.0.0",
+  "authors": [
+    "Alex Vizcaino <avizcainoluna@gmail.com> (http://avizcaino.github.io/)"
+  ],
+  "description": "Alex Vizcaino - Curriculum Vitae",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://avizcaino.github.io/cv",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-elements": "~1.0.7",
+    "iron-elements": "~1.0.10",
+    "polymer": "~1.6.1",
+    "webcomponentsjs": "~0.7.22",
+    "roboto-condensed": "~0.3.0",
+    "roboto-webfont-bower": "roboto-webfont#~0.1.1",
+    "social-media-icons": "~1.3.1"
+  }
+}

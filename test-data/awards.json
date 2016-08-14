@@ -1,0 +1,10 @@
+[
+  {
+    "award": "Best Project Award - Project in Wireless Networks 2011 (December 2011)",
+    "title": "Indoor Operator Competition with Asymmetry Output Power Settings in Shared Spectrum",
+    "department": "Wireless@KTH in Kungliga Tekniska Högskolan (Stockholm)",
+    "advisors": "Prof. Du Ho Kang, Dr. Jens Zander",
+    "description": "Study of the impact of the asymmetry in output power for different operators located in the same area",
+    "competences": ["Wireless Communication", "WLAN", "Signal Processing", "Interference Study", "MATLAB"]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "languages": [
+    {
+      "language": "Catalan",
+      "understanding": "Native",
+      "reading": "Native",
+      "spoken": "Native",
+      "writing": "Native"
+    },
+    {
+      "language": "Spanish",
+      "understanding": "Native",
+      "reading": "Native",
+      "spoken": "Native",
+      "writing": "Native"
+    },
+    {
+      "language": "English",
+      "understanding": "C2 - Proficiency User",
+      "reading": "C2 - Proficiency User",
+      "spoken": "C1 - Proficiency User",
+      "writing": "C1 - Proficiency User"
+    },
+    {
+      "language": "Swedish",
+      "understanding": "A1 - Basic User",
+      "reading": "A1 - Basic User",
+      "spoken": "A1 - Basic User",
+      "writing": "A1 - Basic User"
+    }
+  ],
+  "programming": ["Typescript", "Javascript", "CSS", "HTML5", "ABAP", "Bash", "Java", "ActionScript", "PHP (medium)", "C++ (medium)", "TCL/TK"],
+  "frameworks": ["Aurelia", "Polymer", "SAPUI5", "Esri/ArcGis"],
+  "backend": ["MongoDB", "Couchbase", "SQL"],
+  "others": ["HL7", "NoSQL"]
+}

@@ -1,0 +1,18 @@
+<template>
+  <education class="horizontal layout wrap">
+    <paper-card class="flex education-cards" repeat.for="edu of education">
+      <div class="education-image self-center" background-image="image.bind: edu.logo"></div>
+      <div class="education-content">
+        <div class="card-content">
+          <div class="education-header">${edu.title}</div>
+          <div class="education-name">
+            ${edu.university}<br>
+            (${edu.dates})
+          </div>
+          <h3>Courses</h3>
+          <div repeat.for="course of edu.courses">${course}</div>
+        </div>
+      </div>
+    </paper-card>
+  </education>
+</template>

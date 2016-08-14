@@ -172,5 +172,27 @@
   }
   .publications-header { @apply(--paper-font-headline); color: var(--main-text-color)}
   .publications-name { color: var(--second-text-color); margin: 10px 0; }
+  
+  
+  
+  /* FLEX */
+  /*
+  * Media Queries
+  */
+  @media(min-width: 768px){
+    .work-cards{
+      flex: 1 1 33.33333%;
+    }
+    .education-cards{
+      flex: 1;
+    }
+  }
+
+  @media(max-width: 767px){
+    .education-cards{
+      flex: 1 1 40%;
+    }
+  }
+
 
 </style>

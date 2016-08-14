@@ -1,9 +1,14 @@
 <template>
   <publications class="horizontal layout wrap">
-    <paper-card class="flex publications-cards" repeat.for="publi of publications">
+    <paper-card class="publications-cards" repeat.for="publi of publications">
       <div class="publications-content">
         <div class="card-content">
-          <a class="publications-header" href.bind="publi.url" target="_blank">${publi.title}</a>
+          <div class="horizontal layout publications-header">
+            <div class="flex-3">${publi.title}</div>
+            <a class="flex horizontal layout end-justified" href.bind="publi.url" target="_blank">
+              <iron-icon icon="file-download"></iron-icon>
+            </a>
+          </div>
           <div class="publications-name">
             ${publi.authors | arrayToString}<br>
           </div>

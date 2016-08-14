@@ -17,6 +17,8 @@ define(["require", "exports"], function (require, exports) {
                     return 'github';
                 case 'linkedin':
                     return 'linkedin';
+                case 'pocket':
+                    return 'pocket';
                 default:
                     return 'skype';
             }

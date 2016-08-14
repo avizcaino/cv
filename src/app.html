@@ -37,8 +37,8 @@
             <a href="mailto: ${mail}">${mail}</a>
           </div>
           <div class="horizontal layout center-justified" style="width: 100%">
-            <a href.bind="social.url" target="_blank" repeat.for="social of userInfo.social">
-              <social-media-icons class="" icon="${social.network | getSocialIcon}" color="#546e7a" size="20"></social-media-icons>
+            <a href.bind="social.url" target="_blank" repeat.for="social of userInfo.social" alt.bind="social.id">
+              <i class="zmdi zmdi-${social.network | getSocialIcon} social-media-icons"></i>
             </a>
           </div>
         </div>

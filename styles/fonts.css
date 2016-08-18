@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto Thin';
+  src:  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Thin-webfont.eot');
+  src:  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Thin-webfont.woff') format('woff'),
+  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Thin-webfont.svg#Roboto') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src:  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Bold-webfont.eot');
+  src:  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Bold-webfont.woff') format('woff'),
+  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+  url('../bower_components/roboto-webfont-bower/fonts/Roboto-Bold-webfont.svg#Roboto') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}

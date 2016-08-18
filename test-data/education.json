@@ -1,0 +1,23 @@
+[
+  {
+    "dates": "September 2011 - June 2012",
+    "university": "Kungliga Tekniska Högskolan",
+    "logo": "images/kth.png",
+    "title": "M.Sc. in Network Services and Systems",
+    "courses": ["Project in Wireless Networks", "Management of Networks and Networked Systems", "Performance Analysis of Communication Networks"]
+  },
+  {
+    "dates": "September 2010 - June 2012",
+    "university": "Universitat Politècnica de Catalunya",
+    "logo": "images/upc.png",
+    "title": "Double degree: M.Sc. in Telecommunication Engineering and Management, B.Sc. in Telecommunications",
+    "courses": ["Wireless Communication Networks", "Optical Wired Networks", "Electronic Instrumentation", "Network Services and Systems"]
+  },
+  {
+    "dates": "September 2005 - June 2009",
+    "university": "Universitat Rovira i Virgili",
+    "logo": "images/urv.png",
+    "title": "Technical Engineer in Telecommunications",
+    "courses": ["Wireless and Wired Communication Networks", "Electronics and Signal Processing", "Network Services and Systems", "Network Security and Architecture", "Physics and Mathematics"]
+  }
+]

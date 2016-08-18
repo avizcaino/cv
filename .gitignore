@@ -2,9 +2,9 @@ node_modules
 jspm_packages
 .idea
 .vscode
+/dist
 .DS_STORE
 build/reports
 coverage
 test/e2e/dist
 /typings
-/export

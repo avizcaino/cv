@@ -12,14 +12,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">
     <link rel="stylesheet" href="styles/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="import" href="bower_components/paper-spinner/paper-spinner-lite.html">
+    <style>
+      body{
+        background-color: #37474f;
+        background-image: url('./images/bg-hover.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .spinner{
+        height: 100%;
+      }
+      .spinner-title{
+        color: #eceff1;
+        font-family: "Roboto Thin";
+      }
+    </style>
+    <style is="custom-style">
+      paper-spinner-lite{
+        width: 50px;
+        height: 50px;
+      }
+      paper-spinner-lite.thin {
+        --paper-spinner-stroke-width: 2px;
+        --paper-spinner-color: #eceff1;
+      }
+    </style>
   </head>
 
   <body aurelia-app="main" class="fullbleed vertical layout">
-    <div class="splash">
-      <div class="message">Alex Vizcaino</div>
-      <i class="fa fa-spinner fa-spin"></i>
-    </div>
-    
+    <script>
+      HTMLImports.whenReady(function(){
+        var s = document.createElement("div");
+        s.className += 'spinner vertical layout center-center';
+
+        var spinner = document.createElement('paper-spinner-lite');
+        spinner.className += 'thin';
+        spinner.setAttribute('active', true);
+        s.appendChild(spinner);
+
+        var title = document.createElement('h1');
+        title.className += 'spinner-title';
+        title.innerText = 'Alex Vizcaino';
+        s.appendChild(title);
+
+        document.body.appendChild(s);
+      });
+    </script>
     <!-- The bluebird version is locked at 4.6.3 in the package.json file to keep this from breaking -->
     <!-- We include bluebird to bypass Edge's very slow Native Promise implementation. The Edge team -->
     <!-- has fixed the issues with their implementation with these fixes being distributed with the  -->

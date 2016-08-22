@@ -235,6 +235,13 @@ System.config({
       "routes/education/views/main.js",
       "routes/home/services/home-service-base.js",
       "routes/home/services/local-service.js",
+      "routes/home/views/main.html!github:systemjs/plugin-text@0.0.8.js",
+      "routes/home/views/main.js",
+      "routes/personal/services/local-service.js",
+      "routes/personal/services/personal-service-base.js",
+      "routes/personal/ui/converters/converters.js",
+      "routes/personal/views/main.html!github:systemjs/plugin-text@0.0.8.js",
+      "routes/personal/views/main.js",
       "routes/publications/services/local-service.js",
       "routes/publications/services/publications-service-base.js",
       "routes/publications/views/main.html!github:systemjs/plugin-text@0.0.8.js",
@@ -373,6 +380,21 @@ System.config({
     ],
     "routes/home/services/local-service.js": [
       "./home-service-base"
+    ],
+    "routes/home/views/main.js": [
+      "../services/local-service",
+      "aurelia-dependency-injection"
+    ],
+    "routes/personal/services/local-service.js": [
+      "./personal-service-base"
+    ],
+    "routes/personal/services/personal-service-base.js": [
+      "aurelia-dependency-injection",
+      "aurelia-fetch-client"
+    ],
+    "routes/personal/views/main.js": [
+      "aurelia-dependency-injection",
+      "../services/local-service"
     ],
     "routes/publications/services/local-service.js": [
       "./publications-service-base"

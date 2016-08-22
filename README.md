@@ -38,4 +38,4 @@ In order to personalize the application with your own data, just edit the files 
 | Firefox       | 100%          |
 | Safari*       | 90%           |
 
-> * - Some styling issues with polymer paper-cards
+> (*) Some styling issues with polymer paper-cards

@@ -5,7 +5,7 @@
 To run the app, follow these steps.
 
 1. Ensure that [NodeJS](http://nodejs.org/) is installed. This provides the platform on which the build tooling runs.
-2. From the project folder, execute the following command:
+2. From the project folder, execute the following commands:
 
   ```shell
   npm install
@@ -29,4 +29,4 @@ Once the export is completed, just copy the `export` folder to your host.
 
 ## Configuration
 In order to personalize the application with your own data, just edit the files in the `test-data` folder with your own data. 
->> ** Note: In future releases of this project, a more dynamic way to personalize the CV with your own data will be provided.
+> **Note**: In future releases of this project, a more dynamic way to personalize the CV with your own data will be provided.

@@ -113,7 +113,7 @@
   }
 
   home{
-    height: 100%;
+    min-height: 100%;
   }
 
   home paper-material.profile-pic {
@@ -130,12 +130,21 @@
 
   home .user-name, home .user-bio{
     color: var(--main-text-color);
-  }
-
-  home .user-bio{
-    width: 50%;
     text-align: center;
   }
+
+  @media(min-width: 768px) {
+    home .user-bio{
+      width: 50%;
+    }
+  }
+
+  @media(max-width: 767px){
+    home .user-bio{
+      width: 75%;
+    }
+  }
+
 
   home .user-info{
     color: var(--main-text-color);

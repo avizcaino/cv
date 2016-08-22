@@ -21,9 +21,9 @@ To run the app, follow these steps.
 
 ## Bundling and Export
 To bundle and prepare your application for exporting, just run the following command:
-  ```shell
-    gulp export
-  ```
+```shell
+gulp export
+```
 
 Once the export is completed, just copy the `export` folder to your host.
 

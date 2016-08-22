@@ -24,15 +24,15 @@ export class PersonalServiceBase implements IPersonalService{
   protected certificationsUrl: string;
 
   getSkills(): Promise<PersonalSkills>{
-    return null;
+    return this.callService('personal-skills');
   }
 
   getAwards(): Promise<Award[]>{
-    return null;
+    return this.callService('awards');
   }
 
   getCertifications(): Promise<Certification[]>{
-    return null;
+    return this.callService('certifications');
   }
 
   protected callService(info: string){

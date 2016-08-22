@@ -3,6 +3,7 @@ jspm_packages
 .idea
 .vscode
 /dist
+/export
 .DS_STORE
 build/reports
 coverage

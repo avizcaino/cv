@@ -1,0 +1,23 @@
+<template>
+  <home class="vertical layout center-center">
+    <div class="horizontal layout center-justified">
+      <paper-material class="profile-pic" background-image="image.bind: userInfo.pic" elevation="2"></paper-material>
+    </div>
+    <h1 class="horizontal layout center-justified user-name">${userInfo.name}</h1>
+    <div class="horizontal layout center-justified user-bio">${userInfo.bio}</div>
+    <div class="user-info vertical layout">
+      <div>
+        <iron-icon icon="communication:phone"></iron-icon>
+        ${userInfo.phone}
+      </div>
+      <div repeat.for="mail of userInfo.mail">
+        <iron-icon icon="mail"></iron-icon>
+        <a href="mailto: ${mail}">${mail}</a>
+      </div>
+      <div class="horizontal layout center-justified" style="width: 100%">
+        <a href.bind="social.url" target="_blank" repeat.for="social of userInfo.social">
+          <i class="zmdi zmdi-${social.network | getSocialIcon} social-media-icons"></i>
+        </a>
+      </div>
+  </home>
+</template>

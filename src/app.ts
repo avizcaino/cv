@@ -16,10 +16,11 @@ export class HomeViewModel{
   configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'Alex Vizcaino';
     config.map([
-      { route: ['', 'education'],   name: 'education',    moduleId: 'routes/education/views/main',    nav: true, title: 'Education' },
-      { route: 'work',              name: 'work',         moduleId: 'routes/work/views/main',         nav: true, title: 'Work Experience' },
-      { route: 'publications',      name: 'publications', moduleId: 'routes/publications/views/main', nav: true, title: 'Publications' },
-      { route: 'personal',          name: 'personal',     moduleId: 'routes/personal/views/main',     nav: true, title: 'Personal' }
+      { route: ['', 'home'],   name: 'home',         moduleId: 'routes/home/views/main',         nav: false, title: 'Personal Info' },
+      { route: 'education',    name: 'education',    moduleId: 'routes/education/views/main',    nav: true, title: 'Education' },
+      { route: 'work',         name: 'work',         moduleId: 'routes/work/views/main',         nav: true, title: 'Work Experience' },
+      { route: 'publications', name: 'publications', moduleId: 'routes/publications/views/main', nav: true, title: 'Publications' }
+      //{ route: 'personal',   name: 'personal',     moduleId: 'routes/personal/views/main',     nav: true, title: 'Personal' }
     ]);
 
     this.router = router;

@@ -112,8 +112,42 @@
     padding-top: 8px;
   }
 
+  home{
+    height: 100%;
+  }
+
+  home paper-material.profile-pic {
+    display: block;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    -webkit-border-radius:10rem;
+    -moz-border-radius:10rem;
+    border-radius: 10rem;
+    border: solid 0.5px var(--main-text-color);
+  }
+
+  home .user-name, home .user-bio{
+    color: var(--main-text-color);
+  }
+
+  home .user-bio{
+    width: 50%;
+    text-align: center;
+  }
+
+  home .user-info{
+    color: var(--main-text-color);
+    position: relative;
+  }
+
+  home .user-info a{
+    color: var(--main-text-color);
+  }
+
   /* EDUCATION */
-  education paper-card, work paper-card, publications paper-card{
+  education paper-card, work paper-card, publications paper-card, personal paper-card{
     margin: 1rem;
   }
 
@@ -173,8 +207,29 @@
   .publications-header { @apply(--paper-font-headline);}
   .publications-name { color: var(--second-text-color); margin: 10px 0; }
   
-  
-  
+  /* PERSONAL */
+  paper-card.skills-cards {
+    @apply(--layout-vertical);
+    --paper-card-background-color: var(--main-background-color);
+    color: var(--main-text-color);
+  }
+  .skills-image {
+    width: 10rem;
+    height: 10rem;
+    margin: 16px;
+    background-size: cover;
+  }
+  .skills-content {
+    @apply(--layout-flex);
+    float: right;
+  }
+  .skills-header { @apply(--paper-font-headline); }
+  .skills-name { color: var(--second-text-color); margin: 10px 0; }
+
+  .skill-name {
+    font-weight: bold;
+  }
+
   /* FLEX */
   /*
   * Media Queries

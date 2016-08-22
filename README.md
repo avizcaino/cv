@@ -36,4 +36,4 @@ In order to personalize the application with your own data, just edit the files 
 | ------------- |:-------------:|
 | Chrome        | 100%          |
 | Firefox       | 100%          |
-| Safari        | 90%           |
+| Safari        | 90% (some styling issues with polymer paper-cards) |
